@@ -1,7 +1,8 @@
 """
 Serialize data to/from JSON
 """
-from django.utils import simplejson
+#from django.utils import simplejson
+import simplejson
 from python import Serializer as PythonSerializer
 from django.core.serializers.json import Deserializer as JSONDeserializer, \
     DjangoJSONEncoder
